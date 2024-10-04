@@ -138,27 +138,27 @@ main :nth-child(1){
     padding: 10px;
 }
 
-.separador1 .conteudo {
+.separador1 .container {
     background-color: #d7d8db;
     width: 100%;
     height: 100%;
     border-radius: 5.5vh;
 }
-.quadrado1 .conteudo {
+.quadrado1 .container {
     background-color: #b386fd;
     width: 100%;
     height: 100%;
     border-radius: 5.5vh;
 }
 
-.quadrado2 .conteudo {
+.quadrado2 .container {
     background-color: #b1f041;
     width: 100%;
     height: 100%;
     border-radius: 5.5vh;
 }
 
-.separador0 .conteudo {
+.separador0 .container {
     background-color: #262626;
     width: 100%;
     height: 100%;
