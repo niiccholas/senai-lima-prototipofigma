@@ -107,38 +107,38 @@ main :nth-child(1){
 
 
 
-.container{
+.separador{
     height: auto;
     width: 50%;
 }
 
-.container .container1{
+.separador .separador1{
     height: 35%;
     width: auto;
     padding-bottom: 10px;
     padding-inline: 25px;
 }
 
-.container2{
+.separador2{
     height: 65%;
     width: auto;
     display: flex;
     padding: 15px;
 }
 
-.container2 .quadrado1{
+.separador2 .quadrado1{
     width: 50%;
     height: 100%;
     padding: 10px;
 }
 
-.container2 .quadrado2{
+.separador2 .quadrado2{
     width: 50%;
     height: 100%;
     padding: 10px;
 }
 
-.container1 .conteudo {
+.separador1 .conteudo {
     background-color: #d7d8db;
     width: 100%;
     height: 100%;
@@ -158,11 +158,14 @@ main :nth-child(1){
     border-radius: 5.5vh;
 }
 
-.container0 .conteudo {
-    background-color: black;
+.separador0 .conteudo {
+    background-color: #262626;
     width: 100%;
     height: 100%;
-    border-radius: 5.5vh
+    border-radius: 5.5vh;
+    padding: 25px;
 }
+
+
 
 
