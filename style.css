@@ -95,7 +95,6 @@ header img {
 main {
     display: flex;
     flex-grow: 0.95;
-    background-color: rgb(151, 168, 168);
 }
 
 
@@ -116,7 +115,8 @@ main :nth-child(1){
 .container .container1{
     height: 35%;
     width: auto;
-    padding: 20px;
+    padding-bottom: 10px;
+    padding-inline: 25px;
 }
 
 .container2{
