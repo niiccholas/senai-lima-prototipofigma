@@ -291,14 +291,13 @@ main :nth-child(1){
 }
 
 .mainquadrado {
-    background-color: chocolate;
-    height: 25vh;
+    height: 23.8vh;
     width: 43vw;
     display: flex;
+    overflow: hidden;
 }
 
 .mainquadrado :first-child {
-    background-color: tomato;
     width: 17.5vw;
 }
 
@@ -310,7 +309,19 @@ main :nth-child(1){
     word-wrap: break-word;
     align-items: end;
     padding-left: 1vw;
+    padding-bottom: 1vw;
 }
+
+.mainquadrado :nth-child(2){
+    padding-left: 1vw;
+}
+
+.mainquadrado :nth-child(2) img{
+    width: 20vw;
+    height: 30vw;
+    padding-top: 0vw;
+}
+
 
 
 
