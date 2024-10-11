@@ -74,7 +74,7 @@ header {
     border: none;
     height: 75px;
     border-radius: 15px;
-    width: 300px;
+    width: 10vw;
     background-color: #262626;
     color: white;
     text-align: center;
@@ -94,7 +94,8 @@ header img {
 
 main {
     display: flex;
-    flex-grow: 0.95;
+    flex-grow: 0;
+    padding-top: 0.5vh;
 }
 
 
@@ -158,13 +159,16 @@ main :nth-child(1){
     border-radius: 5.5vh;
 }
 
+.separador0 {
+    padding-bottom: 2vh;
+}
+
 .separador0 .container {
     background-color: #262626;
     width: 100%;
     height: 100%;
     border-radius: 5.5vh;
-    padding: 7.5vh;
-
+    padding: 7vh;
     padding-right: 0.2px;
 }
 
@@ -193,29 +197,65 @@ main :nth-child(1){
 
 .container .conteudo button {
     display: flex;
-    width: 25vh;
+    width: 30vh;
+    height: 12%;
+    margin-top: 35%;
+    padding: 30px;
+    border-radius: 1vw;
+    align-items: center;
     justify-content: space-between;
 }
 
 .container .conteudo button img {
     padding-top: 10px;
+    width: 2.7vw;
+    height: 5vh;
+    padding-left: 30;
 }
 
 .container button .textos {
-    align-items: flex-start;
-    width: 100%;
-    height: 100%;
+    width: 73%;
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
 }
 
 .container button .textos h3{
-
+    font-size: 1.5vh;
     display: flex;
     opacity: 0.26;
+    font-weight: 300;
+    padding-bottom: 10px;
 }
 
 .container button .textos h2 {
     display: flex;
     color: #000000;
+    font-size: 2.5vh;
 }
+
+.container button .linha{
+    width: 2.5px;
+    height: 8.5vh;
+    background-color: #dbdbdb;
+    align-items: center;
+}
+
+.container button .container_carrinho{
+    width: 80px;
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.imagem-lado-botao {
+    width: 50px; 
+    height: auto;
+    margin-left: 10px; 
+    vertical-align: middle; 
+    display: flex;
+}
+
 
 
