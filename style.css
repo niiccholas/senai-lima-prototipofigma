@@ -23,7 +23,7 @@ body {
     flex-direction: column;
     padding: 50px;
     background-image: url(./img/fundo_de_quadrado.png);
-    background-size: 225vh;
+    background-size: 150vh;
     background-repeat: no-repeat;
     overflow: hidden;
 }
@@ -396,3 +396,21 @@ main :nth-child(1){
     padding-bottom: 1vw;
 }
 
+@media (max-width: 960px){
+    body{
+        padding: 20px;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .containerCadastro button{
+        width: 30vh;
+    }
+    .containerCadastro{
+        width: 40vh;
+    }
+    main{
+        flex-direction: column;
+    }
+}
