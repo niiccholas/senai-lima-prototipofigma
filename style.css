@@ -291,6 +291,7 @@ main :nth-child(1){
     height: 23.8vh;
     width: 10vw;
     display: flex;
+    position: relative;
 }
 
 .mainquadrado :first-child {
@@ -300,21 +301,22 @@ main :nth-child(1){
 .mainquadrado .texto {
     display: flex;
     height: 100%;
-    width: 70%;
+    width: 150%;
     font-size: 3vw;
     word-wrap: break-word;
     align-items: end;
     padding-left: 1vw;
-    padding-bottom: 1vw;
+    padding-bottom: 2vw;
 }
 
-.mainquadrado :nth-child(2){
-    padding-left: 1vw;
-}
 
-.mainquadrado :nth-child(2) img{
+
+.mainquadrado :nth-child(2) img{ /* luas */
     width: 20vw;
     height: 30vw;
+    position: absolute;
+    top: -15%;
+    left: 175%;
 }
 
 .conteudo2 {
